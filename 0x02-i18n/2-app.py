@@ -8,8 +8,13 @@ from flask import Flask, render_template, request
 from flask_babel import Babel
 
 
-class Config:
-    """Configuration class for Flask app."""
+class Config(object):
+    """
+        Configuration class for Flask app.
+
+        Returns:
+                __type__: _description_
+        """
     LANGUAGES = ["en", "fr"]  # Available languages for the app
     BABEL_DEFAULT_LOCALE = "en"
     BABEL_DEFAULT_TIMEZONE = "UTC"
