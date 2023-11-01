@@ -5,7 +5,7 @@ This module creates an instance of Flask application and
 defines a class and welcome_message function.
 """
 from flask import Flask, render_template, request
-from flask_babel import Babel, _
+from flask_babel import Babel
 
 
 class Config:
