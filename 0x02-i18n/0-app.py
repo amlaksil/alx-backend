@@ -17,9 +17,7 @@ def welcome_message() -> str:
     Returns:
             str: Rendered HTML template with the welcome message.
     """
-    title: str = "Welcome to Holberton"
-    greeting: str = "Hello world"
-    return render_template('0-index.html', title=title, greeting=greeting)
+    return render_template('0-index.html')
 
 
 if __name__ == '__main__':
